@@ -10,5 +10,7 @@
 // let myCreatedDate = new Date(2023, 0, 23)
 let myCreatedDate = new Date(2023, 0, 23, 5, 5)
 console.log(myCreatedDate.toLocaleDateString());
+console.log(myCreatedDate.toLocaleDateString());
+
 
 
