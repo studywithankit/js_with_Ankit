@@ -27,7 +27,7 @@
 
 // console.log(myArr);
 // console.log(newArr);
-const myArr = [0,1,2,5,4,5,5]
+const myArr = [0,3,2,5,4,5,5]
 
 console.log("A", myArr);
 const myn1 = myArr.slice(1,3)
@@ -35,7 +35,9 @@ const myn1 = myArr.slice(1,3)
 console.log("B",myn1);
 
 const myn2 = myArr.splice(1,3)
+
 console.log("c", myn2,myArr);
+
 
 
 
