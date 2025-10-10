@@ -18,4 +18,13 @@ function handleObject(anyobject) {
 }
 
 // handleObject(user);
-handleObject({ username: "Alok", price: 788 });
+// handleObject({ username: "Alok", price: 788 });
+
+const myNewArray = [200, 300, 400, 600];
+
+function returnSecondValue(getArray) {
+  return getArray[1];
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([300, 400, 599, 687]));
