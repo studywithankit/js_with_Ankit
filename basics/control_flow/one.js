@@ -51,7 +51,7 @@ const loggedInFromEmail = false;
 if (userLoggedIn && debitcard && 2 == 2) {
   console.log("Allow to buy course");
 }
-
+// or operator
 if (loggedInFromEmail || loggedInFromGoogle) {
   console.log("User Logged In");
 }
