@@ -11,7 +11,7 @@ if (temperature < 50) {
 }
 
 // if (true) {
-// } // (= => assignment operator), (== => cheack equal), !(= => not equal), (=== => cheack equal and also type of the data), (!== => Strict Inequality)
+// } // (= => assignment operator), (== => cheack equal), (!= => not equal), (=== => cheack equal and also type of the data), (!== => Strict Inequality)
 
 // if (true) {
 // }
@@ -41,4 +41,17 @@ if (balance < 1500) {
   // console.log("less than 400");
 } else {
   // console.log("less than 500");
+}
+
+const userLoggedIn = true;
+const debitcard = true;
+const loggedInFromGoogle = true;
+const loggedInFromEmail = false;
+
+if (userLoggedIn && debitcard && 2 == 2) {
+  console.log("Allow to buy course");
+}
+
+if (loggedInFromEmail || loggedInFromGoogle) {
+  console.log("User Logged In");
 }
